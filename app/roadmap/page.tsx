@@ -1,0 +1,2 @@
+import { PageShell } from '@/components/page-shell'; import { Card } from '@/components/ui'; import { modules } from '@/data/mock';
+export default function Page(){return <PageShell title="Chapter Roadmap"><div className="grid md:grid-cols-2 gap-4">{modules.map((m,i)=><div key={m} className={i>3?'opacity-60 blur-[1px]':''}><Card title={m}>Time: 15 mins • XP: {100+i*20} • Difficulty: {i<2?'Easy':'Medium'} • Unlock: Complete previous module</Card></div>)}</div></PageShell>}

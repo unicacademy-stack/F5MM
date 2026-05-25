@@ -1,0 +1,2 @@
+import { PageShell } from '@/components/page-shell'; import { Card } from '@/components/ui'; import { quizQuestions } from '@/data/mock';
+export default function Page(){return <PageShell title="Diagnostic Quiz"><div className="grid gap-3">{quizQuestions.map(q=><Card key={q.id} title={q.question}>A. B. C. D.</Card>)}</div><Card title="After Submission">Strengths: direct variation. Weak topics: inverse variation. Great start! Let’s strengthen your understanding of inverse variation.</Card></PageShell>}

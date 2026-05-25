@@ -1,0 +1,2 @@
+import { PageShell } from '@/components/page-shell'; import { Card } from '@/components/ui';
+export default function Page(){return <PageShell title="Leaderboard & Community"><div className="grid md:grid-cols-2 gap-4">{['Weekly XP','Quiz accuracy','Longest streak','Fastest improvement'].map(t=><Card key={t} title={t}>Top performers listed here</Card>)}</div><Card title="Community">Moderated discussion + ask teacher questions for peer learning.</Card></PageShell>}

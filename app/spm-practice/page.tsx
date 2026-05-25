@@ -1,0 +1,2 @@
+import { PageShell } from '@/components/page-shell'; import { Card, ProgressBar } from '@/components/ui';
+export default function Page(){return <PageShell title="SPM Exam Practice"><div className="grid md:grid-cols-4 gap-4"><Card title="Accuracy">82%</Card><Card title="Speed">1.8 min/q</Card><Card title="Improvement">+14%</Card><Card title="Exam Readiness Score">78/100</Card></div><div className="mt-4"><Card title="Timed randomized practice">Auto marking with difficulty progression<ProgressBar value={78}/></Card></div></PageShell>}

@@ -1,0 +1,2 @@
+import { PageShell } from '@/components/page-shell'; import { Card } from '@/components/ui';
+export default function Page(){return <PageShell title="Mistake Bank"><Card title="Weekly mistake review reminder">Every Sunday 8pm</Card><div className="grid gap-3 mt-3">{['Careless mistake','Concept misunderstanding','Formula issue','Time management'].map(c=><Card key={c} title={c}>Original question • Wrong answer • Correct solution • Why it happened • Retry</Card>)}</div></PageShell>}
