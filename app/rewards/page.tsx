@@ -1,0 +1,2 @@
+import { PageShell } from '@/components/page-shell'; import { BadgeStrip, Card } from '@/components/ui';
+export default function Page(){return <PageShell title="Rewards & Achievements"><BadgeStrip /><div className="grid md:grid-cols-3 gap-4 mt-4">{['7-day streak','Quiz master','Chapter completed','100% completion','Fast learner'].map(b=><Card key={b} title={b}>Badge unlocked</Card>)}</div><Card title="XP & Levels">Level progression and unlockable rewards</Card></PageShell>}

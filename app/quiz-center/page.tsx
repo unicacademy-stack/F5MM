@@ -1,0 +1,2 @@
+import { PageShell } from '@/components/page-shell'; import { Card } from '@/components/ui';
+export default function Page(){return <PageShell title="Quiz Center"><div className="grid md:grid-cols-3 gap-4">{['Topic Quizzes','Timed Quizzes','Mixed Revision'].map(t=><Card key={t} title={t}>Questions: 15 • Difficulty filters • Completion rate visible</Card>)}</div><Card title="After Quiz Analytics">Performance analytics, mistake review, recommended retry lessons.</Card></PageShell>}

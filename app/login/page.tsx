@@ -1,0 +1,2 @@
+import { PageShell } from '@/components/page-shell';
+export default function Page(){return <PageShell title="Student Login"><form className='max-w-md space-y-3'><input className='w-full border rounded-xl p-3' placeholder='Email'/><input className='w-full border rounded-xl p-3' placeholder='Password' type='password'/><button className='rounded-xl bg-brand-blue text-white px-4 py-2'>Login</button></form></PageShell>}

@@ -1,0 +1,2 @@
+import { PageShell } from '@/components/page-shell'; import { Card } from '@/components/ui';
+export default function Page(){return <PageShell title="Progress Tracker"><div className="grid md:grid-cols-2 gap-4">{['Completion %','Quiz accuracy trend','Time spent studying','Weak topic radar chart'].map(t=><Card key={t} title={t}>Chart placeholder</Card>)}</div><Card title="Motivation">You are ahead of 78% of students this week.</Card></PageShell>}

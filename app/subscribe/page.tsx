@@ -1,0 +1,2 @@
+import { PageShell } from '@/components/page-shell'; import { Card } from '@/components/ui';
+export default function Page(){return <PageShell title="Premium Subscription"><Card title="Paywall Structure">Free: diagnostic + intro lessons. Premium: full chapter, analytics, exam bank.</Card><Card title="Stripe Integration Placeholder">Connect checkout session API and webhook handlers for subscription status.</Card></PageShell>}

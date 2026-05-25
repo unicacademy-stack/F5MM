@@ -1,0 +1,2 @@
+import { PageShell } from '@/components/page-shell'; import { Card } from '@/components/ui';
+export default function Page(){return <PageShell title="Referral Center"><Card title="Study together and unlock exclusive rewards.">Referral code: VARIATION-AINA-25 • Share buttons • Progress tracker</Card><div className="grid md:grid-cols-3 gap-4 mt-4">{['Bonus quiz packs','Unlock challenge questions','Premium revision notes'].map(r=><Card key={r} title={r}>Reward tier content</Card>)}</div></PageShell>}
